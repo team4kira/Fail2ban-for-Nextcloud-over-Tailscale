@@ -2,7 +2,7 @@
 
 This guide documents a general-purpose setup for using Fail2ban to detect repeated failed Nextcloud login attempts when Nextcloud is accessed through Tailscale. It covers logging, filtering, jail configuration, testing, and the important distinction between **detection** and **firewall enforcement**.
 
-> **Privacy note:** Replace all IP addresses, hostnames, domains, usernames, and file paths with your own values.
+> **Privacy note:** Replace all IP addresses, hostnames, domains, usernames, and file paths with your own values. All private Tailscale addressess, public IP address, domain names, usernames or logs found in this article are generic. Never commit private information to a public repository. 
 
 ## Overview
 
